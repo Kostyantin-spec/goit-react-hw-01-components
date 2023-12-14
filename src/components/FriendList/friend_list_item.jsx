@@ -1,7 +1,7 @@
 import css from './friend_list.module.css';
 
 export const FriendListItem = ({ avatar, name, status }) => {
-  // const online = { status };
+  //  const online = { status };
 
   // console.log(online);
 
@@ -12,7 +12,7 @@ export const FriendListItem = ({ avatar, name, status }) => {
           status === true ? css.active : css.offline
         }`}
       >
-        {status}
+         {/* {status} */}
       </span>
       <img className={css.avatar} src={avatar} alt={name} width="48" />
       <p className={css.name}>{name}</p>
